@@ -1,0 +1,50 @@
+*
+{
+    margin: 0px;
+}
+header{
+    
+    background-color: blueviolet;
+}
+@media only screen and (max-width: 600px) {
+    header {
+      background-color: lightblue;
+    }
+  }
+.logo
+{
+    float:left;
+    width: 39%;
+    margin-top:5px;
+    margin-left: 5px;;
+    
+    
+}
+.menu
+{
+    float:right;
+    width:60%;
+    
+}
+header ul li{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+header ul li a{
+    color:#EEAF21;
+}
+
+section
+{
+    
+    background-color: cadetblue;
+}
+
+
+footer{
+    height: 200px;
+    background-color: #EEAF21;
+
+}
+

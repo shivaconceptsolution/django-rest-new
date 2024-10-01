@@ -1,0 +1,30 @@
+{% extends 'scsapp/layout.html' %}
+{% block titleblock %}
+Welcome in Gallery Page
+{% endblock %}
+{% block middle %}
+<section>
+<div class="part1">
+            <h1>Welcome in Gallery Page</h1>
+            <form action="" method="post">
+                {% csrf_token %}
+                 <input type="text" name="txtuser" placeholder="Enter usernme" />
+                 <br><br>
+                 <input type="text" name="txtpass" placeholder="Enter password" />
+                 <br><br>
+                 <input type="text" name="txtmobile" placeholder="Enter mobileno"/>
+                 <br><br>
+                 <input type="text" name="txtfname" placeholder="Enter fname" />
+                 <br><br>
+                 <input type="submit" name="btnsubmit" value="Insert" />
+            </form>
+            {{key}}
+            <br><br>
+</div>
+<div class="part2">
+
+</div>
+</section>
+{% endblock %}
+    
+

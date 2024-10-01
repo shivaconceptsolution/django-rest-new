@@ -1,0 +1,18 @@
+{% extends 'scsapp/layout.html' %}
+{% block titleblock %}
+Welcome in About us Page
+{% endblock %}
+{% block middle %}
+    <section>
+        <div class="part1">
+             <h1>Welcome in About us Page</h1>
+             {% for item in data %}
+              <p>{{item.id}}, {{item.username}}, {{item.password}} , {{item.mobileno}}, {{item.fname}}</p>
+              {% endfor %}
+        </div>
+        <div class="part2">
+
+        </div>
+    </section>
+    {% endblock %}
+    
